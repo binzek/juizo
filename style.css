@@ -30,20 +30,20 @@ body {
   color: lightgray;
 }
 
-.recipes {
+.juices {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.recipes ul {
+.juices ul {
   width: 70%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.recipes ul li {
+.juices ul li {
   list-style: none;
   border: 2px solid lightgray;
   margin: 20px;
@@ -52,7 +52,7 @@ body {
   border-radius: 20px;
 }
 
-.recipes ul li a {
+.juices ul li a {
   color: whitesmoke;
   font-size: 1.7rem;
   text-decoration: none;
@@ -61,14 +61,14 @@ body {
 }
 
 @media (max-width: 1250px) {
-  .recipes ul {
+  .juices ul {
     grid-template-columns: 1fr 1fr;
     width: 80%;
   }
 }
 
 @media (max-width: 950px) {
-  .recipes ul {
+  .juices ul {
     grid-template-columns: 1fr;
     width: 80%;
   }
