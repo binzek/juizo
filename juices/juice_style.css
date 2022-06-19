@@ -92,3 +92,52 @@ body {
   font-size: 1.4rem;
   line-height: 1.5;
 }
+
+@media (max-width: 950px) {
+  .title {
+    flex-direction: column;
+  }
+
+  .title-text {
+    width: 100%;
+    padding: 0;
+  }
+
+  .title-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .title-text p {
+    font-size: 1.2rem;
+    margin: 20px 0 50px 0;
+  }
+
+  .title-image {
+    width: 100%;
+  }
+
+  .title-image img {
+    width: 80%;
+  }
+
+  .recipe {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .recipe div {
+    width: 100%;
+    width: 70%;
+    margin: 20px 0;
+  }
+
+  .recipe div h2 {
+    font-size: 1.9rem;
+  }
+
+  .recipe div ul li,
+  .recipe div ol li {
+    font-size: 1.3rem;
+  }
+}
