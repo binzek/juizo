@@ -101,4 +101,7 @@ footer a {
     grid-template-columns: 1fr;
     width: 80%;
   }
+  footer {
+    font-size: 0.9rem;
+  }
 }
