@@ -58,7 +58,6 @@ body {
 }
 
 .title-image a {
-  text-decoration: none;
   color: lightgray;
   font-family: monospace;
   text-transform: uppercase;

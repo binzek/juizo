@@ -60,6 +60,18 @@ body {
   font-weight: 700;
 }
 
+.new-juice {
+  text-align: center;
+  margin: 20px auto;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.new-juice a {
+  color: lightgray;
+}
+
 @media (max-width: 1250px) {
   .juices ul {
     grid-template-columns: 1fr 1fr;
