@@ -44,6 +44,11 @@ body {
   color: lightgray;
 }
 
+.title-text p:nth-child(3) {
+  color: gray;
+  font-size: 1.1rem;
+}
+
 .title-image {
   width: 50%;
   display: flex;
