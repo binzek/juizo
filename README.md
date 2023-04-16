@@ -9,7 +9,7 @@
 - HTML
 - CSS
 
-#### Live link : https://wajid-nv.github.io/juizo
+#### Live link : https://juizo.wajid.me
 
 This website is created as a project for [**The Odin Project**](https://theodinproject.com).
 
